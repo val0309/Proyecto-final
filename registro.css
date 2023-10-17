@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to left, rgba(74,164,195,.8), rgba(0,0,0,0.1)), 
+    url(img/registro.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.formulario{
+     width: 400px;
+     background: #c5e1f5;
+     padding: 30px;
+     margin: auto;
+     margin-top: 100px;
+     border-radius: 4px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     color: coral;
+     box-shadow: 7px 13px 37px #000;
+}
+
+.formulario h2{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.control{
+    width: 100%;
+    background: #c5e1f5;
+    padding: 10px;
+    border-radius: 40px;
+    margin-bottom: 16px;
+    border: 1px solid coral;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: rgb(26, 24, 24);
+    
+    font-size: 15px;
+}
+.formulario .bottons{
+    width: 100%;
+    background: chocolate;
+    border: none;
+    padding: 12px;
+    color: antiquewhite;
+    margin: 16px 0;
+    font-size: 16px;
+
+}
+
+
+.formulario .letricas{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/** esto pertenece a los estilos del formulario de iniciar seccion de la parte de abajo*/
+.formulario p{
+    color: rgb(26, 72, 116);
+    text-decoration: none;
+
+}
+.formulario a{
+    
+    color: rgb(240, 144, 19);
+    text-decoration: none;
+}
