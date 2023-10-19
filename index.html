@@ -6,7 +6,6 @@
     <title>Proyecto final</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-    <script src="dinanismo.js"></script>
 </head>
 <body>
     <header>
@@ -19,7 +18,7 @@
                 <li><a href="#">Inicio</a></li>
                 <li><a href="#">Sobre nosotros</a></li>
                 <li><a href="#">Tienda</a></li>
-                
+                <li><a href="Contactanos.html">Contáctanos</a></li>
                 <li><a href="inicio.html">iniciar seccion</a></li>
                 
 
@@ -45,6 +44,36 @@
 
         </p>
     </section>
+
+    <script type="text/javascript">
+        //javascript for navigation bar effect on scroll
+        window.addEventListener("scroll", function(){
+          var header = document.querySelector("header");
+          header.classList.toggle('down', window.scrollY > 0);
+    
+            //change logo
+            var logo = document.querySelector(".brand img");
+            if (window.scrollY>0) {
+                logo.setAttribute('src', 'image/blue.ico');
+            }else{
+                logo.setAttribute('src', 'image/blue.ico');
+            }
+    
+        });
+    
+        //javascript for responsive navigation sidebar menu
+        var menu = document.querySelector('.menu');
+        var menuBtn = document.querySelector('.menu-btn');
+        var closeBtn = document.querySelector('.close-btn');
+    
+        menuBtn.addEventListener("click", () => {
+          menu.classList.add('active');
+        });
+    
+        closeBtn.addEventListener("click", () => {
+          menu.classList.remove('active');
+        });
+        </script>
   
 </body>
 </html>
