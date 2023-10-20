@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>iniciarsesion</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-    <script src="dinanismo.js"></script>
+    
     <link rel="stylesheet" href="registro.css">
 </head>
 <body>
@@ -34,19 +34,21 @@
     <section class="section-main">
         <section class="formulario">
     
-            <h2 clas="Titulo "> Inicia seccion</h2>
+            <h2 clas="Titulo "> Inicia sesion</h2>
+            <form id="loginform">
             
-            
-            
-            <input class="control" type="email" name="correo" id="correo" placeholder="ingrese su correo"><br>
-            
-            <input class= "control" type="password" name="contraseña" id="contraseña" placeholder="ingrese su contraseña"><br>
+                <label>E-mail</label>
+                <input class="control" type="email" name="correo" id="email" placeholder="ingrese su correo" required autofocus>
+                <label>Contraseña</label>
+                <input class= "control" type="password" name="contraseña" id="password" placeholder="ingrese su contraseña" required>
             
                         
             <input class="bottons" type="submit" value="ingresar">
             <p >Si no tienes cuenta registrate  <a href="registro.html">aqui</a></p>
+            </form>
            
         </section>  
+        <script src="login.js"></script>
     </section>
     
     <section class="section-two">
