@@ -55,7 +55,7 @@
   }
   
   header.down{
-    background: #bad6eb;
+    background: #ccd4e0;
     padding: 15px 80px;
   }
   
@@ -78,7 +78,7 @@
   header .menu ul{
     position: relative;
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
   }
   
@@ -165,3 +165,40 @@
       line-height: 60px;
     }
   }
+
+header .carrito li a{
+  padding: 5px;
+  font-size: 2em;
+  
+}
+header .usuario li a{
+  padding: 5px;
+  font-size: 2em;
+}
+
+ section .nosotros{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section .nosotros .tgh{
+  margin-right: 50px;
+
+}
+.section-two p{
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.section-two{
+  padding: 50px 15px;
+}
+section .migh{
+  width: 350px;
+  height: 250px;
+
+}
+.section-two h1{
+  padding: 14px 8px;
+}

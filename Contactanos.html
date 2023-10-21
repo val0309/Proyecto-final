@@ -3,10 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto final</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="Contactanos.css">
-    <title>Contáctanos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 </head>
 <body>
+    <header>
+        <a href="" class="logo">mitiko</a>
+        <nav class="menu">
+            <div class="btn">
+                <i class="fas fa-times close-btn"></i>
+            </div>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#">productos</a></li>
+                <li><a href="Contactanos.html">Contáctanos</a></li>
+                <div class="carrito">
+                 <li><a href="carrito.html"><ion-icon name="bag-handle-outline"></ion-icon></a></li>
+                </div>
+               <div class="usuario">
+                <li><a href="inicio.html"><ion-icon name="person-outline"></ion-icon></a></li>
+               </div>
+                
+
+            </ul>
+        </nav>
+        <div class="btn">
+            <i class="fas fa-bars menu-btn"></i>
+        </div>
+
+    </header>
     <section>
         <div class="contactForm">
             <div class="form">
@@ -41,14 +68,14 @@
                 </div>
                 <div class="textBox">
                     <div class="infoContact">
-                        <ion-icon name="map"></ion-icon> <p>200 N. spring street Los angeles CA 98012,
-                        Estados unidos</p>
+                        <ion-icon name="map"></ion-icon> <p>CL 85#115-05 norte historico 
+                        Barranquilla, Atlantico</p>
                     </div>
                     <div class="infoContact">
-                        <ion-icon name="call"></ion-icon> <p>+1 (111) 1111</p>
+                        <ion-icon name="call"></ion-icon> <p>+57 322 5489874</p>
                     </div>
                     <div class="infoContact">
-                        <ion-icon name="mail"></ion-icon> <p>africanovalentina@gmail.com</p>
+                        <ion-icon name="mail"></ion-icon> <p>mitikoContac@gmail.com</p>
                     </div>
                 </div>
                 <div class="rrss">
@@ -61,5 +88,47 @@
     </section>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script type="text/javascript">
+        //javascript for navigation bar effect on scroll
+        window.addEventListener("scroll", function(){
+          var header = document.querySelector("header");
+          header.classList.toggle('down', window.scrollY > 0);
+    
+            //change logo
+            var logo = document.querySelector(".brand img");
+            if (window.scrollY>0) {
+                logo.setAttribute('src', 'image/blue.ico');
+            }else{
+                logo.setAttribute('src', 'image/blue.ico');
+            }
+    
+        });
+    
+        //javascript for responsive navigation sidebar menu
+        var menu = document.querySelector('.menu');
+        var menuBtn = document.querySelector('.menu-btn');
+        var closeBtn = document.querySelector('.close-btn');
+    
+        menuBtn.addEventListener("click", () => {
+          menu.classList.add('active');
+        });
+    
+        closeBtn.addEventListener("click", () => {
+          menu.classList.remove('active');
+        });
+        </script>
+
+<section class="section-two">
+    <h2>klaka</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing
+         elit. Animi repellendus, molestiae praesentium
+          iste, nulla placeat aperiam aspernatur suscipit
+           pariatur corrupti laboriosam dolorem consequatur
+            ex hic quas ab. Facere, 
+        quisquam quidem!
+
+    </p>
+  
 </body>
 </html>

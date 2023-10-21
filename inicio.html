@@ -18,9 +18,14 @@
             </div>
             <ul>
                 <li><a href="index.html">Inicio</a></li>
-                <li><a href="#">Sobre nosotros</a></li>
-                <li><a href="#">Tienda</a></li>
-                
+                <li><a href="#">productos</a></li>
+                <li><a href="Contactanos.html">Contáctanos</a></li>
+                <div class="carrito">
+                 <li><a href="carrito.html"><ion-icon name="bag-handle-outline"></ion-icon></a></li>
+                </div>
+               <div class="usuario">
+                <li><a href="inicio.html"><ion-icon name="person-outline"></ion-icon></a></li>
+               </div>
                 
 
             </ul>
@@ -50,7 +55,7 @@
         </section>  
         <script src="login.js"></script>
     </section>
-    
+
     <section class="section-two">
         <h2>klaka</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing
@@ -58,9 +63,40 @@
               iste, nulla placeat aperiam aspernatur suscipit
                pariatur corrupti laboriosam dolorem consequatur
                 ex hic quas ab. Facere, 
-            quisquam quidem!
-
-        </p>
+            quisquam quidem!</p>
     </section>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script type="text/javascript">
+        //javascript for navigation bar effect on scroll
+        window.addEventListener("scroll", function(){
+          var header = document.querySelector("header");
+          header.classList.toggle('down', window.scrollY > 0);
+    
+            //change logo
+            var logo = document.querySelector(".brand img");
+            if (window.scrollY>0) {
+                logo.setAttribute('src', 'image/blue.ico');
+            }else{
+                logo.setAttribute('src', 'image/blue.ico');
+            }
+    
+        });
+    
+        //javascript for responsive navigation sidebar menu
+        var menu = document.querySelector('.menu');
+        var menuBtn = document.querySelector('.menu-btn');
+        var closeBtn = document.querySelector('.close-btn');
+    
+        menuBtn.addEventListener("click", () => {
+          menu.classList.add('active');
+        });
+    
+        closeBtn.addEventListener("click", () => {
+          menu.classList.remove('active');
+        });
+        </script>
 </body>
 </html>
