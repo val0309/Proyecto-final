@@ -1,3 +1,6 @@
+@import url(productos.css);
+@import url(nosotros.css);
+@import url(banner.css);
 *{
     margin: 0;
     padding: 0;
