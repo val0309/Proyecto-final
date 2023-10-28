@@ -3,34 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto final</title>
-    <link rel="stylesheet" href="style.css">
+    <title>MITIKO</title>
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 </head>
 <body>
     <header>
-        <a href="" class="logo">mitiko</a>
+        <a href="index.html" class="logo">mitiko</a>
         <nav class="menu">
             <div class="btn">
                 <i class="fas fa-times close-btn"></i>
             </div>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="#">productos</a></li>
-                <div class="carrito">
-                 <li><a href="carrito.html"><ion-icon name="bag-handle-outline"></ion-icon></a></li>
-                </div>
-               <div class="usuario">
-                <li><a href="inicio.html"><ion-icon name="person-outline"></ion-icon></a></li>
-               </div>
-                
-                
-
+            <ul class="shpp">
+                <li><a href="#">Tienda<ion-icon name="chevron-down-outline"></ion-icon></a>
+                    <ul class="shpp1">
+                        <li><a href="skincare.html">Skincare</a></li>
+                        <li><a href="#">Maquillaje</a></li>
+                        <li><a href="#">Accesorios</a></li>
+                        <li><a href="#">Peluches</a></li>
+                    </ul>
+                </li>
             </ul>
+            
         </nav>
+
+        <div class="usuario">
+            <a href="inicio.html"><ion-icon name="person-outline"></ion-icon></a>
+        </div>
+        <div class="carrito">
+            <a href="carrito.html"><ion-icon name="bag-handle-outline"></ion-icon></a>
+        </div>
+       
+
         <div class="btn">
             <i class="fas fa-bars menu-btn"></i>
         </div>
+
+        
 
     </header>
 
@@ -38,7 +47,6 @@
     
             <h1>Bienvenido a Mitiko</h1>
             <p>Tu lugar para ser feliz</p>
-            <a href="#">Encuentra aqui tus articulos </a>
         
         
     </section>
@@ -50,7 +58,7 @@
                 <h1 >Sobre Nosotros</h1>
                 <p>En Mitiko, nos apasiona hacer que tu vida sea más colorida, divertida y llena de estilo. Nos especializamos en ofrecerte una amplia gama de productos únicos y encantadores que seguramente te robarán el corazón.
                     Nuestro equipo está formado por amantes de la belleza y la estética, siempre en búsqueda de los artículos más adorables y funcionales para ti. Cada producto en nuestra tienda ha sido cuidadosamente seleccionado para garantizar la calidad y el encanto que nuestros clientes merecen.
-                    Gracias por elegir Mitiko. Esperamos que disfrutes explorando nuestra colección de artículos super hermosos y encuentres algo que haga brillar tu día.
+                    Gracias por elegir Mitiko. Esperamos que disfrutes explorando nuestra colección de artículos super hermosos y encuentres algo que haga brillar tu día. <br>
                     ¡Bienvenido al mundo encantador de Mitiko!
                     </p>
                     
@@ -152,8 +160,7 @@
         </div>
     </footer>
 
-
-
+    <script src="index.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
