@@ -61,7 +61,7 @@ header{
     justify-content: space-between;
     padding: 30px;
 
-    border-bottom: 1px solid rgb(120, 120, 151);
+    border-bottom: 1px solid rgb(60, 60, 88);
 }
 .info-cart-products{
     display: flex;
@@ -124,7 +124,7 @@ header{
     border-radius: 10px;
 }
 .item:hover{
-    box-shadow: 0 10px 20px rgb(128, 113, 161);
+    box-shadow: 0 10px 20px rgb(95, 89, 57);
 }
 
 .item img{
@@ -160,7 +160,7 @@ header{
 .info-product button{
     border: none;
     background: none;
-    background-color: #ac8fac;
+    background-color: #ebebb7;
     color: #000;
     padding: 4px 4px;
     cursor: pointer;

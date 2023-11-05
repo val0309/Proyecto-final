@@ -15,17 +15,25 @@
             <div class="btn">
                 <i class="fas fa-times close-btn"></i>
             </div>
-            <ul>
-                <li><a href="#">productos</a></li>
-                 <li><a href="carrito.html"><ion-icon name="bag-handle-outline"></ion-icon></a></li>
-                </div>
-               <div class="usuario">
-                <li><a href="inicio.html"><ion-icon name="person-outline"></ion-icon></a></li>
-               </div>
-                
-
+            <ul class="shpp">
+                <li><a href="#">Tienda<ion-icon name="chevron-down-outline"></ion-icon></a>
+                    <ul class="shpp1">
+                        <li><a href="skincare.html">Skincare</a></li>
+                        <li><a href="maquillaje.html">Maquillaje</a></li>
+                        <li><a href="#">Accesorios</a></li>
+                        <li><a href="#">Peluches</a></li>
+                    </ul>
+                </li>
             </ul>
         </nav>
+
+        <div class="usuario">
+            <a href="inicio.html"><ion-icon name="person-outline"></ion-icon></a>
+        </div>
+        <div class="carrito">
+            <a href="#"><ion-icon name="bag-handle-outline"></ion-icon></a>
+        </div>
+       
         <div class="btn">
             <i class="fas fa-bars menu-btn"></i>
         </div>
@@ -83,38 +91,11 @@
             </div>
         </div>
     </section>
+
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="js/index.js"></script>
 
-    <script type="text/javascript">
-        //javascript for navigation bar effect on scroll
-        window.addEventListener("scroll", function(){
-          var header = document.querySelector("header");
-          header.classList.toggle('down', window.scrollY > 0);
-    
-            //change logo
-            var logo = document.querySelector(".brand img");
-            if (window.scrollY>0) {
-                logo.setAttribute('src', 'image/blue.ico');
-            }else{
-                logo.setAttribute('src', 'image/blue.ico');
-            }
-    
-        });
-    
-        //javascript for responsive navigation sidebar menu
-        var menu = document.querySelector('.menu');
-        var menuBtn = document.querySelector('.menu-btn');
-        var closeBtn = document.querySelector('.close-btn');
-    
-        menuBtn.addEventListener("click", () => {
-          menu.classList.add('active');
-        });
-    
-        closeBtn.addEventListener("click", () => {
-          menu.classList.remove('active');
-        });
-        </script>
     <!--pie de paginas con las redes sociales y demas -->
     <footer class="pie-pagina">
         <div class="ctn">
