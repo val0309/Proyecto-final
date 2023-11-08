@@ -22,7 +22,7 @@
     position: relative;
     width: 100%;
     min-height: 80vh;
-    background: linear-gradient(to left, rgba(207, 233, 241, 0.8), rgba(0,0,0,0.1)),
+    background: linear-gradient(to left, rgba(207, 233, 241, 0.637), rgba(0,0,0,0.1)),
     url(img/banner.png) no-repeat;
     background-size: cover;
     background-position: center;
@@ -31,18 +31,19 @@
     align-items: center;
     padding: 20px 70px;
   }
+  /*Efecto maquina de escrbir en el banner */
   .maquina{
     background: rgb(184, 125, 131);
     position: relative;
   }
   .maquina::after{
     content: "";
-    border-left: 3px solid black; 
+    border-left: 2px solid black; 
     background: rgb(233, 211, 211);
     right: 0;
     height: 100%;
     position: absolute;
-    animation: maquinaescribir 2s infinite alternate steps(30);
+    animation: maquinaescribir 5s infinite alternate steps(32);
   }
   @keyframes maquinaescribir{
     from{
@@ -63,7 +64,7 @@
     right: 0;
     height: 100%;
     position: absolute;
-    animation: maquinaescribir 2s alternate steps(33);
+    animation: maquinaescribir 08s alternate steps(33);
   }
   @keyframes maquinaescribir{
     from{
@@ -99,7 +100,7 @@
   }
   
   header.down{
-    background: #ccd4e0;
+    background: #dfe5ec;
     padding: 25px 80px;
   }
   
@@ -132,7 +133,7 @@
   .shpp1{
     position: absolute;
     align-items: center;
-    top: 50px;
+    top: 35px;
     right: 0;
 
     background-color: rgb(182, 187, 211);
@@ -172,7 +173,7 @@
   }
   
   header .btn{
-    color: #ffffff;
+    color: #000000;
     font-size: 25px;
     cursor: pointer;
     display: none;
@@ -242,11 +243,11 @@
       align-items: center;
     }
     section .nosotros h1{
-      margin-left: 300px;
+      /*margin-left: 0;*/
       text-align: center;
     }
     section .nosotros p{
-      margin-left: 200px;
+      /*margin-left: 0;*/
       text-align: center;
     }
 
@@ -264,6 +265,13 @@
       padding: 4px;
       font-size: 1em;
       color: #000;
+    }
+    .shpp1{
+      position: absolute;
+      align-items: center;
+      top: 325px;
+      right: 50px;
+      
     }
   }
   
@@ -301,6 +309,7 @@
   section .migh{
     width: 350px;
     height: 250px;
+    display: flex;
 
   }
   .section-two h1{
@@ -405,7 +414,7 @@
   .redes-sociales a:hover{
     background-color: #80769c;
   }
-  @media(max-width:991px){
+  @media(max-width:1368px){
     .pie-pagina-2{
       text-align: center;
     }

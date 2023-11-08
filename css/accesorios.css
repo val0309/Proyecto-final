@@ -164,4 +164,20 @@ header{
     padding: 4px 4px;
     cursor: pointer;
 }
+input[type="submit"]{
+    background: #4d4763;
+    display: inline-block;
+    width: 200px;
+    padding: 8px;
+    margin-left: 90px;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 1px 9px 20px -Spx rgba(0, 0, 0, 0.993);
+    transition: 0.3s;
+}
+input[type="submit"]:hover{
+    background: #535a7c;
 
+}
