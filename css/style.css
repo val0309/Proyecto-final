@@ -78,11 +78,11 @@
   
   .section-main h1{
     color: rgba(255, 255, 255, 0.8);
-    font-size: 60px;
+    font-size: 35px;
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 2px;
-    line-height: 80px;
+    line-height: 60px;
     text-shadow: 0 0 3px #fff, 0 0 3px #000000;
   }
   
@@ -179,7 +179,7 @@
     display: none;
   }
   /*cuando este en PC 1368px*/
-  @media (max-width: 991px){
+  @media (max-width: 480px){
     header, header.down{
         padding: 20px 40px;
     }
@@ -222,10 +222,10 @@
     }
   }
   /*cuando este en dispositivos moviles 480px*/
-  @media (max-width: 480px){
+  @media (max-width: 1368px){
     .section-main h1{
-      font-size: 35px;
-      line-height: 60px;
+      font-size: 60px;
+      line-height: 80px;
       text-align: center;
     }
     header{
@@ -414,13 +414,14 @@
   .redes-sociales a:hover{
     background-color: #80769c;
   }
-  @media(max-width:1368px){
+  @media(max-width:991px){
     .pie-pagina-2{
       text-align: center;
     }
-
+    
     .pie-pagina-links{
       width: 100%;
       margin-bottom: 30px;
     }
   }
+ 
