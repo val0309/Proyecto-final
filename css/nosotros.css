@@ -1,16 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;600&display=swap');
+
+
 #nosotros{
     padding-top: 0%;
-   
-    background-color: rgb(194, 217, 236);
+    background: hsl(312, 100%, 94%);
 }
+
 #nosotros h1{
     padding-left: 6%;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Poppins', sans-serif;
     color: dimgray;
 }
 #nosotros p{
     padding-left: 6%;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Poppins', sans-serif;
     color: rgb(56, 54, 54);
     font-size: 18px;
 }
@@ -20,4 +23,6 @@
     max-width: 100%;
     margin: 10px;
     margin-top: 30px;
+    
+    
 }

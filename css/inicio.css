@@ -1,35 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;600&display=swap');
-
-
-
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 body{
-    background-image: url(img/fondiii.jpg);
+    background: linear-gradient(to left, rgba(74,164,195,.8), rgba(0,0,0,0.1)), 
+    url(img/registro.jpg) no-repeat;
     background-size: cover;
     background-position: center;
-     
 }
 .formulario{
-    width: 400px;
-    background: #c5e1f5;
-    padding: 30px;
-    margin: auto;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    border-radius: 4px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(136, 100, 125);
-    box-shadow: 7px 13px 37px #000;
+     width: 400px;
+     background: #c5e1f5;
+     padding: 30px;
+     margin: auto;
+     margin-top: 100px;
+     border-radius: 4px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     color: rgb(136, 100, 125);
+     box-shadow: 7px 13px 37px #000;
 }
 
 .formulario h2{
     font-size: 22px;
     margin-bottom: 20px;
-    font-family: 'Poppins', sans-serif;
 }
 .control{
     width: 100%;
@@ -68,8 +62,11 @@ body{
 .formulario p{
     color: rgb(26, 72, 116);
     text-decoration: none;
-    text-align: center;
-    font-size: 18px;
-    height: 40px;
 
+}
+.formulario a{
+    
+    color: rgb(16, 12, 34);
+    text-decoration: none;
+    font-weight: bold;
 }
