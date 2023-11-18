@@ -7,6 +7,8 @@
     <link rel="icon"  type="image/png" href="img/mitiko.png">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"  />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     <header>
@@ -62,7 +64,8 @@
                     Nuestro equipo está formado por amantes de la belleza y la estética, siempre en búsqueda de los artículos más adorables y funcionales para ti. Cada producto en nuestra tienda ha sido cuidadosamente seleccionado para garantizar la calidad y el encanto que nuestros clientes merecen.
                     Gracias por elegir Mitiko. Esperamos que disfrutes explorando nuestra colección de artículos super hermosos y encuentres algo que haga brillar tu día. <br>
                     ¡Bienvenido al mundo encantador de Mitiko!
-                    </p>
+                </p>
+                
                     
             </div>
     
@@ -107,6 +110,139 @@
         </div>
 
     </section>
+
+
+    <!--comentarios-->
+ <section class="body">
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="title"> Que dicen nuestros clientes</h2>
+                
+            </div>
+            <div class="testimonials-content">
+                <div class=" swiper testimonials-slider js-testimonials-slider">
+                    <div class="swiper-wrapper">
+                        <div class=" swiper-slide testimonials-items">
+                            <div class="info">                            
+                                <img src="img/user1.jpg" alt="img">
+                                <div class="text-box">
+                                    <h3 class="name">Monserrat franco</h3>                                   
+                                    <span class="job"> web depelove</span>                                   
+                                </div>                           
+    
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus odio perferendis laboriosam sapiente nihil, accusamus dolor velit, in quia corrupti fuga voluptates, dolorum exercitationem molestias repellat rerum laudantium architecto minima!</p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                
+                            </div> 
+    
+                                                
+                        </div>
+                        <div class="swiper-slide testimonials-items">
+                            <div class="info">                            
+                                <img src="img/user2.jpg" alt="img">
+                                <div class="text-box">
+                                    <h3 class="name">Monserrat franco</h3>                                   
+                                    <span class="job"> web depelove</span>                                   
+                                </div>                           
+    
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus odio perferendis laboriosam sapiente nihil, accusamus dolor velit, in quia corrupti fuga voluptates, dolorum exercitationem molestias repellat rerum laudantium architecto minima!</p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                
+                            </div> 
+    
+                                                
+                        </div>
+                        <div class="swiper-slide testimonials-items">
+                            <div class="info">                            
+                                <img src="img/user3.jpg" alt="img">
+                                <div class="text-box">
+                                    <h3 class="name">Monserrat franco</h3>                                   
+                                    <span class="job"> web depelove</span>                                   
+                                </div>                           
+    
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus odio perferendis laboriosam sapiente nihil, accusamus dolor velit, in quia corrupti fuga voluptates, dolorum exercitationem molestias repellat rerum laudantium architecto minima!</p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                
+                            </div> 
+    
+                                                
+                        </div>
+                        <div class="swiper-slide testimonials-items">
+                            <div class="info">                            
+                                <img src="img/user4.jpg" alt="img">
+                                <div class="text-box">
+                                    <h3 class="name">Monserrat franco</h3>                                   
+                                    <span class="job"> web depelove</span>                                   
+                                </div>                           
+    
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus odio perferendis laboriosam sapiente nihil, accusamus dolor velit, in quia corrupti fuga voluptates, dolorum exercitationem molestias repellat rerum laudantium architecto minima!</p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                
+                            </div> 
+    
+                                                
+                        </div>
+    
+                    </div>
+    
+                </div>
+                <div class="swiper-pagination js-testimonials-pagination"></div>
+    
+            </div>
+    
+        </div>
+       </section>
+
+ </section>
+ <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+ 
+ <script>
+    const swiper = new Swiper('.js-testimonials-slider', {
+        grabCursor: true,
+        spaceBetween: 30,
+        pagination:{
+            el:'.js-testimonials-pagination',
+            clickable: true
+        },
+        breakpoints:{
+            767:{
+                slidesPerView: 2
+            }
+        }
+
+    });
+ </script>
+
+
+    
+
+
+
 <!--Boton flotante de contacto-->
     <div class="containerr">
         <input type="checkbox" id="btn-mas">
@@ -153,9 +289,9 @@
                 <div class="pie-pagina-links">
                     <h3>SIGUÉNOS</h3>
                     <div class="redes-sociales">
-                        <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
-                        <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
-                        <a href="#"><ion-icon name="logo-tiktok"></ion-icon></a>
+                        <a href="https://www.instagram.com/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+                        <a href="https://www.facebook.com/" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+                        <a href="https://www.tiktok.com/es/" target="_blank"><ion-icon name="logo-tiktok"></ion-icon></a>
                     </div>
                 </div>
             </div>
