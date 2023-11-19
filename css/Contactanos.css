@@ -1,11 +1,12 @@
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Poppins', sans-serif;
 }
 body{
-    background: #ccd4e0;
+    background: #e8ebf0;
 }
 section{
     position: relative;
@@ -136,7 +137,7 @@ section .contactForm .info .textBox .infoContact p{
 section .contactForm .info .rrss a{
     padding: 20px;
     font-size: 2em;
-    color: #4d4763;
+    color: #4c4469;
     transition: 0.3s;
 
 }

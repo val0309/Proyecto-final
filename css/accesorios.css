@@ -181,3 +181,14 @@ input[type="submit"]:hover{
     background: #535a7c;
 
 }
+@media(max-width:480px){
+    .container-items{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    .cart-product{
+        padding: 20px;
+
+    }
+}
