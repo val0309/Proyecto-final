@@ -145,7 +145,7 @@ section .contactForm .info .rrss a:hover{
     color: #5d647a;
 
 }
-@media only screen and (max-width: 1200px){
+@media only screen and (max-width: 1368px){
     section .contactForm{
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     }
@@ -159,7 +159,7 @@ section .contactForm .info .rrss a:hover{
         display: none;
     }
 }
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 480px){
     section .contactForm .form{
         margin-left: 0px;
         width: 100%;
@@ -168,6 +168,14 @@ section .contactForm .info .rrss a:hover{
     section .contactForm .info{
         margin-bottom: 30px;
         
+    }
+
+    section .contactForm .info .textBox{
+        display: none;
+    }
+
+    section .contactForm .info{
+        display: none;
     }
 }
 

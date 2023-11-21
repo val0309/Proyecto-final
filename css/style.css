@@ -1,7 +1,9 @@
 @import url(productos.css);
 @import url(nosotros.css);
 @import url(comentario.css);
+@import url(piepagina.css);
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;600&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -11,8 +13,8 @@
   
   body{
     min-height: 100vh;
-    
   }
+
   header .logo{
     color: #000000;
     font-weight: bold;
@@ -20,10 +22,8 @@
     letter-spacing: 4px;
     transition: 1.5s;
     text-decoration: none;
-    /*margin-right: 720px;
-    margin-left: 20px*/
-
   }
+
   /*banner*/
   .section-main{
     position: relative;
@@ -40,7 +40,6 @@
     
   }
   
-
   /*Efecto maquina de escrbir en el banner */
   .maquina{
     background: rgb(184, 125, 131);
@@ -108,7 +107,6 @@
     align-items: center;
     padding: 20px 80px;
     transition: 0.6s;
-    /*min-width: 1368px;*/
   }
 
   
@@ -261,28 +259,11 @@
       margin-right: 720px;
       margin-left: 20px;  
     }*/
-    /*header .logo{
+    header .logo{
       font-size: 2.5em;
       letter-spacing: 2px;
       transition: 1.5s;
       text-decoration: none;
-    }*/
-    section .nosotros{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-    section .nosotros h1{
-      /*margin-left: 0;*/
-      text-align: center;
-    }
-    section .nosotros p{
-      /*margin-left: 0;*/
-      text-align: center;
-    }
-
-    section .nosotros .tgh{
-      margin-right: 40px;
     }
     
     header .carrito a{
@@ -298,8 +279,6 @@
       color: #000;
       
     }
-    
-    
   }
   /*icons de la barra de navegacion*/
   header .carrito a{
@@ -329,34 +308,6 @@
     background: #fff;
   }
   /*pagina de inicio*/
-  section .nosotros{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  section .nosotros .tgh{
-    margin-right: 50px;
-  }
-  
-  .section-two p{
-    float: none;
-    margin-left: auto;
-    margin-right: auto; 
-  }
-
-  .section-two{
-    padding: 50px 15px;
-  }
-  section .migh{
-    width: 350px;
-    height: 250px;
-    display: flex;
-
-  }
-  .section-two h1{
-    padding: 14px 8px;
-  }
   #btn-mas{
     display: none;
 
@@ -401,75 +352,5 @@
     max-width: 1200px;
     margin: 0 auto;
   }
-  /*pie pagina*/
-  .pie-pagina{
-    background-color: rgb(113, 104, 128);
-    padding: 80px 0;
-
-  }
-  .pie-pagina-2{
-    display: flex;
-    flex-wrap: wrap;
-
-  }
-  .pie-pagina-links{
-    width: 25%;
-    padding: 0 15px;
-
-  }
-  .pie-pagina-links h3{
-    font-size: 20px;
-    color: #100d13;
-    margin-bottom: 50px;
-    font-weight: 500;
-    border-bottom: 2px solid rgb(60, 38, 95);
-    padding-bottom: 10px;
-    display: inline-block;
-  }
-  .pie-pagina-links ul li{
-    list-style: none;
-  }
-  .pie-pagina-links ul li a{
-    font-size: 18px;
-    text-decoration: none;
-    color: #000000;
-    display: block;
-    margin-bottom: 15px;
-    transition: all .3s ease;
-  }
-  .pie-pagina-links ul li a:hover{
-    color: #80769c;
-    padding-left: 6px;
-  }
-  .redes-sociales a{
-    display: inline-block;
-    min-height: 40px;
-    width: 40px;
-    color: #393f57;
-    background-color: rgb(49, 35, 61);
-    margin: 0 10px 10px 0;
-    text-align: center;
-    line-height: 40px;
-    border-radius: 50%;
-    color: #cdd0e4;
-    transition: all .5s ease;
-  }
-  .redes-sociales a:hover{
-    background-color: #80769c;
-  }
-  @media(max-width:480px){
-    .pie-pagina-2{
-      text-align: center;
-    }
-    
-    .pie-pagina-links{
-      width: 100%;
-      margin-bottom: 30px;
-    }
-  }
- 
-
-
-
 
   
