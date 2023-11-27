@@ -7,12 +7,30 @@ signupform.addEventListener('submit',  (e) =>{
     const password = document.querySelector('#password').value
     const sexo = document.querySelector('#sexo').value
     
-    const users = JSON.parse(localStorage.getItem('users')) || []
-    const isUserRegistered = users.find(user => user.email === email )
+    const Users = JSON.parse(localStorage.getItem('users')) || []
+    const isUserRegistered = Users.find(user => user.email === email )
     if(isUserRegistered){
         return alert('el usuario ya esta registrado')
     }
-    users.push({name:name,apellido: apellido,email: email, password: password,sexo:sexo})
-    localStorage.setItem('users', JSON.stringify(users))
+    Users.push({name: name,apellido: apellido,email: email, password: password,sexo:sexo})
+    
+    localStorage.setItem('users', JSON.stringify(Users))
     alert('registro exitoso!') 
+    redirectToLogin()
+    
 })
+
+
+
+
+
+
+
+
+
+
+function redirectToLogin(){
+    const a = document.createElement("a")
+    a.href = "inicio.html"
+    a.click()
+  }

@@ -3,12 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-body{
-    background: linear-gradient(to left, rgba(74,164,195,.8), rgba(0,0,0,0.1)), 
-    url(img/registro.jpg) no-repeat;
-    background-size: cover;
-    background-position: center;
-}
+
 .formulario{
      width: 400px;
      background: #c5e1f5;

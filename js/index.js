@@ -1,3 +1,63 @@
+const user = JSON.parse(localStorage.getItem('login_success')) || false
+if(!user){
+    window.location.href = 'inicio.html'
+}
+
+const logout = document.querySelector('#logout')
+
+logout.addEventListener('click', ()=>{
+    alert('Hasta pronto!')
+    localStorage.removeItem('login_success')
+    window.location.href = 'inicio.html'
+})
+
+
+
+
+
+
+
+
+
+const infoUsuario = document.getElementById("usuario");
+
+function MostrarNombre() {
+  UsuarioLogueado = localStorage.getItem("login_success");
+  if (UsuarioLogueado) {
+    const p = document.createElement("p");
+    const user = JSON.parse(UsuarioLogueado);
+    p.textContent = user.name;
+    infoUsuario.appendChild(p);
+        
+    
+
+    //boton de logout aparecer
+    const logout = document.getElementById("logout");
+    
+    logout.addEventListener("click", () => {
+      p.textContent = "";
+     
+      localStorage.removeItem("login_success");
+      
+      
+    });
+  }
+}
+
+MostrarNombre();
+
+
+
+
+
+
+
+
+
+
+
+
+
 //javascript for navigation bar effect on scroll
 window.addEventListener("scroll", function(){
     var header = document.querySelector("header");
@@ -25,3 +85,12 @@ const shoppcontainer =document.querySelector(
 btntienda.addEventListener("click", () => {
   shoppcontainer.classList.toggle("shhpp")
 });
+
+
+
+// // nombre localstorage
+// const infousuario = document.getElementById("usuario");
+// function mostrarNombreUsuario (){
+
+
+

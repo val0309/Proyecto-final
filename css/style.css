@@ -307,6 +307,29 @@
     color: #000;
     background: #fff;
   }
+  header #logout {
+    border: none;
+    padding: 5px;
+    font-size: 2em;
+    color: #000;
+    border-radius: 10px;
+    transition: 0.3s;
+    transition-property: color, background;
+    background: transparent;
+    
+  }
+  header #logout:hover{
+    color: #000;
+    background: #fff;
+    
+  }
+
+  header #usuario p{
+    font-size: 21px;
+    font-weight: 100;
+    
+  }
+
   /*pagina de inicio*/
   #btn-mas{
     display: none;
