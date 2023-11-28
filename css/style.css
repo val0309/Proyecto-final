@@ -103,16 +103,16 @@
     left: 0;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 20px 80px;
+    padding: 20px 8px;
     transition: 0.6s;
   }
 
   
   header.down{
     background: #dfe5ec;
-    padding: 20px 40px;
+    padding: 10px 40px;
   }
   
   header .brand{
@@ -192,7 +192,7 @@
     display: none;
   }
   /*cuando este en PC 1368px*/
-  @media (max-width: 480px){
+  @media (max-width: 513px){
     header, header.down{
       padding: 20px 40px;
       

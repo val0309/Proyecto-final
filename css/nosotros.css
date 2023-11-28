@@ -60,7 +60,7 @@
     }
 }
 
-@media(max-width: 480px){
+@media(max-width: 800px){
     .row{
         width: 90%;
         grid-template-columns: 1fr;

@@ -182,7 +182,7 @@ input[type="submit"]:hover{
     background: #535a7c;
 
 }
-@media(max-width:480px){
+@media(max-width:513px){
     .container-items{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -191,5 +191,13 @@ input[type="submit"]:hover{
     .cart-product{
         padding: 20px;
 
+    }
+    .container-cart-products {
+        width: 300px; /* Cambia el ancho a ocupar el 100% del ancho disponible */
+        /* Ajusta la posición según tus necesidades */
+    }
+    input[type="submit"]{
+        margin-left: 50px;
+        margin-bottom: 5px;
     }
 }

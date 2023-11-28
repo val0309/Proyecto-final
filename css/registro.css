@@ -74,3 +74,9 @@ body{
     height: 40px;
 
 }
+@media(max-width:470px){
+    .formulario {
+        width: 300px;
+    }
+
+}
