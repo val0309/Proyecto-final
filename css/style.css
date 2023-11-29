@@ -149,7 +149,7 @@
     top: 35px;
     right: 0;
 
-    background-color: rgb(182, 187, 211);
+    background-color: #c2c4d4;
     width: 200px;
     z-index: 1;
     border-radius: 10px;
@@ -204,8 +204,8 @@
       position: fixed;
       background: #cdd0e4;
       min-width: 330px;
-      height: 100vh;
-      top: 0;
+      height: 65vh;
+      top: 45px;
       right: -100%;
       padding: 80px 50px;
       transition: 0.5s;
@@ -230,7 +230,7 @@
     header .menu a{
       display: block;
       font-size: 20px;
-      margin: 10px;
+      margin: 5px;
       padding: 0 15px;
     }
     
@@ -238,7 +238,7 @@
     .shpp1{
       position: absolute;
       align-items: center;
-      top: 325px;
+      top: 335px;
       right: 50px;
       
     }
@@ -255,10 +255,7 @@
     header{
       padding: 10px 38px;
     }
-    /*header .logo{
-      margin-right: 720px;
-      margin-left: 20px;  
-    }*/
+    
     header .logo{
       font-size: 2.5em;
       letter-spacing: 2px;
@@ -331,46 +328,7 @@
   }
 
   /*pagina de entrada de inicio*/
-  #btn-mas{
-    display: none;
-
-  }
-  .containerr{
-    position: fixed;
-    bottom: 40px;
-    right: 40px;
-
-  }
-  .Contactanos a, .icon1{
-    display: block;
-    text-decoration: none;
-    color: #131725;
-    width: 50px;
-    height: 50px;
-    line-height: 50px;
-    text-align: center;
-    border-radius: 30%;
-    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0, 4);
-    transition: all 500ms ease;
-
-
-  }
-  .Contactanos a:hover{
-    background: #6c7186;
-    color: #cecde2;
-  }
-  .Contactanos a{
-    margin-bottom: -15px;
-    opacity: 0;
-    visibility: hidden;
-
-  }
-  #btn-mas:checked~ .Contactanos a{
-    margin-bottom: 10px;
-    opacity: 1;
-    visibility: visible;
-  }
-
+  
   .ctn{
     max-width: 1200px;
     margin: 0 auto;

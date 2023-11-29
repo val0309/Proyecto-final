@@ -109,3 +109,4 @@ const showHTML = () => {
     countProducts.innerText = totalOfProducts;
 
 };
+

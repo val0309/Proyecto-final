@@ -165,23 +165,29 @@ header{
     padding: 4px 4px;
     cursor: pointer;
 }
-input[type="submit"]{
+
+.compra a{
     background: #4d4763;
     display: inline-block;
-    width: 200px;
+    font-size: 1em;
     padding: 8px;
-    margin-left: 90px;
+    margin: 40px;
+    align-items: center;
     border-radius: 10px;
     letter-spacing: 1px;
     border: none;
     cursor: pointer;
-    box-shadow: 1px 9px 20px -Spx rgba(0, 0, 0, 0.993);
     transition: 0.3s;
 }
-input[type="submit"]:hover{
+.compra a:hover{
     background: #535a7c;
-
 }
+header .carrito .compra a{
+    text-decoration: none;
+    font-size: 1em;
+}
+
+
 @media(max-width:513px){
     .container-items{
         display: grid;
@@ -195,8 +201,5 @@ input[type="submit"]:hover{
     .container-cart-products {
         width: 300px;
     }
-    input[type="submit"]{
-        margin-left: 50px;
-        margin-bottom: 5px;
-    }
+    
 }
