@@ -1,6 +1,6 @@
  /*pie pagina*/
  .pie-pagina{
-    background-color: rgb(92, 84, 105);
+    background-color: rgb(179, 159, 192);
     padding: 80px 0;
 
   }
@@ -35,7 +35,7 @@
     transition: all .3s ease;
   }
   .pie-pagina-links ul li a:hover{
-    color: #80769c;
+    color: rgb(231, 221, 230);
     padding-left: 6px;
   }
   .redes-sociales a{
@@ -52,7 +52,7 @@
     transition: all .5s ease;
   }
   .redes-sociales a:hover{
-    background-color: #80769c;
+    background-color: #a87fa5;
   }
   @media(max-width:480px){
     .pie-pagina-2{

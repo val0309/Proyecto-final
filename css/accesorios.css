@@ -30,7 +30,7 @@ header{
     top: 55%;
     right: 0;
 
-    background-color: #000;
+    background-color:#ff1212;
     color: aliceblue;
     width: 20px;
     height: 20px;
@@ -49,7 +49,7 @@ header{
     top: 50px;
     right: 0;
 
-    background-color: rgb(182, 187, 211);
+    background-color: rgb(185, 186, 204);
     width: 400px;
     z-index: 1;
     box-shadow: 0 1px 20px rgb(48, 50, 59);
@@ -61,7 +61,7 @@ header{
     justify-content: space-between;
     padding: 30px;
 
-    border-bottom: 1px solid rgb(120, 120, 151);
+    border-bottom: 1px solid rgb(119, 81, 179);
 }
 .info-cart-products{
     display: flex;
@@ -165,7 +165,7 @@ header{
     cursor: pointer;
 }
 .compra a{
-    background: #4d4763;
+    background: #a387c9;
     display: inline-block;
     font-size: 1em;
     padding: 8px;

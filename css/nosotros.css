@@ -65,4 +65,8 @@
         width: 90%;
         grid-template-columns: 1fr;
     }
+    .section-two{
+        display: flex;
+        justify-content: center;
+    }
 }

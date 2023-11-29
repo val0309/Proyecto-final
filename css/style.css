@@ -111,7 +111,7 @@
 
   
   header.down{
-    background: #dfe5ec;
+    background: rgb(223, 207, 231);
     padding: 10px 40px;
   }
   
@@ -148,8 +148,9 @@
     align-items: center;
     top: 35px;
     right: 0;
+    
 
-    background-color: #c2c4d4;
+    background-color: rgb(185, 147, 180);
     width: 200px;
     z-index: 1;
     border-radius: 10px;
@@ -202,14 +203,16 @@
     }
     header .menu{
       position: fixed;
-      background: #cdd0e4;
+      background: rgb(223, 204, 230);
       min-width: 330px;
-      height: 65vh;
-      top: 45px;
+      height: 48vh;
+      top: 60px;
       right: -100%;
       padding: 80px 50px;
       transition: 0.5s;
       transition-property: right;
+      display: list-item;
+      box-shadow: 0 1px 20px rgb(59, 61, 70);;
     }
 
     header .menu ul{
@@ -228,18 +231,25 @@
     }
 
     header .menu a{
-      display: block;
+      display: flex;
       font-size: 20px;
       margin: 5px;
       padding: 0 15px;
+      
     }
+
+    header .carrito a{
+      display: flex;
+      
+    }
+    
     
     
     .shpp1{
       position: absolute;
       align-items: center;
-      top: 335px;
-      right: 50px;
+      top: 115px;
+      right: 75px;
       
     }
     
@@ -266,8 +276,15 @@
     header .carrito a{
       padding: 4px;
       font-size: 1em;
-      color: #000;
-    
+      color: #ecdede;
+      display: flex;
+        
+         
+    }
+    header .carrito a{
+      display: flex;
+      justify-content: center;
+      
     }
     
     header .usuario a{
@@ -281,14 +298,14 @@
   header .carrito a{
     padding: 5px;
     font-size: 2em;
-    color: #000;
+    color: #000000;
     border-radius: 10px;
     transition: 0.3s;
     transition-property: color, background;
   }
   header .carrito a:hover{
     color: #000;
-    background: #fff;
+    background: #fcf8f8;
   }
   
   header .usuario a{
