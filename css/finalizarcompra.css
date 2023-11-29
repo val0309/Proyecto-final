@@ -9,6 +9,9 @@
     box-sizing: border-box;
     
 }
+body{
+    background: linear-gradient(to right, #c8a5e4, #e98ac9 , #f3f2a6);
+}
 section{
     display: flex;
     flex-wrap: wrap;
@@ -20,7 +23,7 @@ section{
 }
 
 section button{
-    background-color: rgb(114, 177, 196);
+    background-color: rgb(89, 71, 97);
     color: #fff;
     
     transition: var(--transition);
