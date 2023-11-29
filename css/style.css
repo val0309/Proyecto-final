@@ -350,5 +350,21 @@
     max-width: 1200px;
     margin: 0 auto;
   }
-
+  @media (max-width: 738px){
+    .section-main h1{
+      font-size: 50px;
+      line-height: 80px;
+      text-align: center;
+      
+    }
+    .section-main{
+      background-position: 0%;
+    }
+    .maquina2::after{
+    
+    height: 50%;
+    
+    animation: maquinaescribir 8s alternate steps(35);
+  }
+  }
   

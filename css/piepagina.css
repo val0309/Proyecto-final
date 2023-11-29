@@ -54,7 +54,7 @@
   .redes-sociales a:hover{
     background-color: #a87fa5;
   }
-  @media(max-width:480px){
+  @media(max-width:756px){
     .pie-pagina-2{
       text-align: center;
     }
