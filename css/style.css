@@ -192,7 +192,7 @@
     cursor: pointer;
     display: none;
   }
-  /*cuando este en PC 1368px*/
+  /*cuando este en dispositivos moviles 480px*/
   @media (max-width: 513px){
     header, header.down{
       padding: 20px 40px;
@@ -235,14 +235,12 @@
       font-size: 20px;
       margin: 5px;
       padding: 0 15px;
-      
     }
 
     header .carrito a{
       display: flex;
       
     }
-    
     
     
     .shpp1{
@@ -254,8 +252,8 @@
     }
     
   }
-  
-  /*cuando este en dispositivos moviles 480px*/
+
+  /*cuando este en PC 1368px*/
   @media (max-width: 1368px){
     .section-main h1{
       font-size: 60px;
