@@ -19,6 +19,8 @@
 .formulario h2{
     font-size: 22px;
     margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
 }
 .control{
     width: 100%;
